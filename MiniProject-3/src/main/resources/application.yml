@@ -1,0 +1,118 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Project03
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect  # Correct dialect for MySQL 8
+        format_sql: true
+
+  mail:
+    host: smtp.gmail.com
+    username: vijaykrishnach268@gmail.com
+    password: vrcl zcip yfyo ongr
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          port: 587
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+server:
+  port: 4041
+
+mailbody:
+  registeruser:
+    location: src/main/java/com/vj/service/user_register_sucess.txt
+  recoverpwd:
+    location: src/main/java/com/vj/service/recover_password.txt
+  userstatuschange:
+    location: src/main/java/com/vj/service/user_status_change.txt
+  userotp:
+    location: src/main/java/com/vj/service/user_otp.txt
+  notactivation:
+    location: src/main/java/com/vj/service/user_inactive.txt
+  activation:
+    location: src/main/java/com/vj/service/user_active.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#spring:
+#  datasource:
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/Project03
+#    
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect  # Correct dialect for MySQL 8
+#        format_sql: true
+#  mail:
+#		host: smtp.gmail.com
+#		username: vijaykrishnach268@gmail.com
+#		password: Challarivk@268
+#		properties:
+#			mail:
+#				transport:
+#					protocol: smtp
+#				smtp:
+#					port: 587
+#					auth: true
+#					starttls:
+#						enable: true
+#						required: true
+#
+#server:
+#  port: 4041
+#	
+#mailbody:
+#	registeruser:
+#		location: classpath:com/vj/service/user_register_sucess.txt
+#	recoverpwd: 
+#		location: classpath:com/vj/service/recover_password.txt
+#	userstatuschange:
+#		location: classpath:com/vj/service/user_status_change.txt
+#	notactivation:
+#		location: classpath:com/vj/service/user_inactive.txt
+#	
+#	

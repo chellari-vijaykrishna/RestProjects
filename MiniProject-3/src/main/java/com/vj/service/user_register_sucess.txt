@@ -1,0 +1,19 @@
+<h2>Welcome to User Registration!</h2>
+
+<p>Dear <strong>{FULL_NAME}</strong>,</p>
+
+<p>Thank you for registering with us! Please confirm your email by clicking the link below:</p>
+
+<h3>Temporary Password:</h3>
+<p>{PWD}</p>
+<h3>Activate Your Account:</h3>
+<p><a href="{URL}">Click here to activate your account</a></p>
+
+<p>For security reasons, we recommend changing your password once you log in.</p>
+
+<hr>
+
+<p>If you didn't sign up, please ignore this email or contact our support team at <a href="mailto:vijaykrishnach268@gmail.com">[support email]</a>.</p>
+
+<p>Best regards,</p>
+<p><strong>The User Registration Team</strong></p>

@@ -1,0 +1,11 @@
+
+        <h2>Confirmation Mail</h2>
+        <p>Dear <strong>{FULL_NAME}</strong>,</p>
+        
+        <p>OTP : <strong>{OTP}</strong>,</p>
+
+        <p>If you have any questions, feel free to reach out. We're here to help!</p>
+
+        <p>Best regards,</p>
+        <p><strong>The User Registration Team</strong></p>
+        <p><strong>Admin</strong></p>

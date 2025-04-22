@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "mailbody.registeruser.location",
+    "type": "java.lang.String",
+    "description": "A description for 'mailbody.registeruser.location'"
+  },
+  {
+    "name": "mailbody.recoverpwd.location",
+    "type": "java.lang.String",
+    "description": "A description for 'mailbody.recoverpwd.location'"
+  },
+  {
+    "name": "mailbody.notactivation.location",
+    "type": "java.lang.String",
+    "description": "A description for 'mailbody.notactivation.location'"
+  },
+  {
+    "name": "mailbody.userstatuschange.location",
+    "type": "java.lang.String",
+    "description": "A description for 'mailbody.userstatuschange.location'"
+  },
+  {
+    "name": "mailbody.userotp.location",
+    "type": "java.lang.String",
+    "description": "A description for 'mailbody.userotp.location'"
+  },
+  {
+    "name": "mailbody.activation.location",
+    "type": "java.lang.String",
+    "description": "A description for 'mailbody.activation.location'"
+  }
+]}
